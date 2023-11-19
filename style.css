@@ -1,4 +1,65 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
 .header{
-    background-color: rgb(129, 129, 129);
-    height: 60px;
+    position:sticky;
+    background-color: rgb(49, 49, 49);
+    height: 50px;
+    width:100%;
+}
+.header-name{
+    float:left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.sign{
+    float:right;
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+.create-new{
+    width:120px;
+    float:right;
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+#button-1{
+    margin-left: 5px;
+    width: 80px;
+    height: 80%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 40px;
+}
+#button-1:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+#button-2{
+    width: 120px;
+    height: 80%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 40px;
+}
+#button-2:hover{
+    background-color: rgb(92, 92, 92);
+}
+.full-container{
+    border:1px solid black;
+    margin-top:10px;
+}
+.input-element{
+    margin-left: 4px;
 }
