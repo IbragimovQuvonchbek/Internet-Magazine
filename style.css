@@ -8,7 +8,7 @@ body{
 
 .header{
     position:sticky;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(55, 55, 55);
     height: 50px;
     width:100%;
 }
@@ -60,12 +60,13 @@ a{
     background-color: rgb(92, 92, 92);
 }
 .full-container{
-    background-color: rgb(60, 0, 226);
+    background-image: linear-gradient(to left bottom, #14005a, #20007d, #2d00a1, #3b00c7, #4900ee);
     border-radius: 20px;
     width:60vw;
     height:25vw;
     margin:auto;
-    border:1px solid black;
+    /* border:1px solid black; */
+    box-shadow: 0px 0px 6px rgb(0, 34, 108);
     margin-top:15vw;
 }
 .input-container{
