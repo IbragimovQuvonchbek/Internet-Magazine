@@ -1,14 +1,17 @@
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Rubik:wght@300;400&display=swap');body{
     height:60vw;
-    background-image: linear-gradient(to right top, #000a23, #001b59, #002592, #0027ca, #0014ff);
     margin:0px;
     padding:0px;
+    background-color: rgba(232,232,232,255);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
 }
 
 .header{
-    position:sticky;
-    background-color: rgb(55, 55, 55);
+    position:fixed;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.85);
     height: 50px;
     width:100%;
 }
@@ -45,7 +48,7 @@ a{
     border-radius: 40px;
 }
 #button-1:hover{
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(92, 92, 92,0.7);
 }
 
 #button-2{
@@ -57,7 +60,7 @@ a{
     border-radius: 40px;
 }
 #button-2:hover{
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(92, 92, 92,0.7);
 }
 .full-container{
     background-image: linear-gradient(to left bottom, #14005a, #20007d, #2d00a1, #3b00c7, #4900ee);
@@ -95,4 +98,32 @@ a{
 .submit-element{
     width:14vw;
     height:3.8vw;
+}
+#container{
+    width:98%;
+    overflow: auto;
+    /* border: 2px solid black; */
+    margin-top:51px;
+    margin-left: 8px;
+    
+    display:inline-block;
+    align-items: center; 
+    justify-content: center;
+}
+.product_post{
+    overflow: auto;
+    float:left;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    width: 17%;
+    height:23vw;
+    margin: 3px;
+    border: 2px solid black;
+}
+.product_post img{
+    text-align: center;
+    width:100%;
+    margin:auto;
+    border-radius: 4px;
 }
